@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3b5998;
+    color: #fff;
+    text-align: center;
+}
+
+.facebook-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo h1 {
+    font-size: 80px;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+.login-btn, .browser-login-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4267b2;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.browser-login-btn {
+    background-color: #4a76c3;
+}
+
+button:hover {
+    background-color: #365899;
+}
+
+.links {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.links a {
+    color: #dfe3ee;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
